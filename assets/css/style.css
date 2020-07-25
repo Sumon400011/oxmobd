@@ -1,0 +1,147 @@
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+:root{
+	--green: #104706;
+	--red: #B0100D;
+}
+
+.btn:focus{
+	box-shadow: none;
+}
+
+.form-control:focus{
+	box-shadow: none;
+}
+
+.nav-link{
+	color: gray!important;
+	font-weight: bold!important;
+}
+
+.banner_area, #carouselExampleSlidesOnly img{
+	height: 350px;
+	width: 100%;
+	background-color: gray;
+}
+
+.carousel-caption{
+	position: absolute;
+	right: 0;
+	/* bottom: 0; */
+	left: 0;
+	z-index: 10;
+	/*padding-top: 20px;*/
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.7;
+	padding-top: 7%;
+}
+
+.gallery img{
+	max-width: 10%;
+	margin: 5px;
+}
+
+.gallery .nav-item{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.mix_container{
+	min-height: 100vh;
+}
+
+
+
+
+
+#login .login_container{
+    height: 100vh!important;
+    width: 100%;
+    background-color: #EEF2F1;
+}
+
+#login .login_bg{
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 50%;
+}
+#login .login_left{
+    background-blend-mode: multiply; 
+    background-size: cover; 
+    background-position: center;
+}
+
+#login .left_container, .right_container{
+	min-height: 450px;
+}
+#login .login_right input{
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+}
+
+#login .login_right input:focus{
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+}
+
+#login .login_right .input-group-text{
+    background-color: transparent;
+    border: none;
+}
+
+
+@media (max-width: 740px) {
+	.banner_area, #carouselExampleSlidesOnly img{
+		height: 250px;
+		width: 100%;
+		background-color: gray;
+	}
+
+	.gallery img{
+		max-width: 30%;
+		margin: 4px;
+	}
+}
+
+
+@media (max-width: 575px) {
+	.banner_area, #carouselExampleSlidesOnly img{
+		height: 250px;
+		width: 100%;
+		background-color: gray;
+	}
+
+	.gallery img{
+		max-width: 30%;
+		margin: 4px;
+	}
+}
+
+@media (max-width: 370px) {
+	.banner_area, #carouselExampleSlidesOnly img{
+		height: 250px;
+		width: 100%;
+		background-color: gray;
+	}
+
+	.gallery img{
+		max-width: 25%;
+		margin: 4px;
+	}
+}
